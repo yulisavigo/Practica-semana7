@@ -58,11 +58,11 @@ namespace Practica_semana7
                         String alumno = Console.ReadLine();
 
                         string[] partes = alumno.Split(' ');
-                        String primernombre = partes[0];
-                        String iniciales = "";
+                        String apellidos= partes[0];
+                        String inicialesapellidos = "";
                         for (int i = 0; i < partes.Length; i++) 
                         {
-                            iniciales += partes[i].Substring(0, 1);
+                            inicialesapellidos += partes[i].Substring(0, 1);
                         }
                         break;
                     case 8: Console.WriteLine("Saliendo...");
